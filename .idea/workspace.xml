@@ -63,11 +63,6 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD My_HC05">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="My_HC05.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_HC05" TARGET_NAME="My_HC05.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_HC05" RUN_TARGET_NAME="My_HC05.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -110,7 +105,7 @@
       <workItem from="1627781631527" duration="8892000" />
       <workItem from="1627822146577" duration="4281000" />
       <workItem from="1627878426790" duration="15823000" />
-      <workItem from="1628215804723" duration="171000" />
+      <workItem from="1628215804723" duration="2337000" />
     </task>
     <servers />
   </component>
