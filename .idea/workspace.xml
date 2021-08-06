@@ -12,9 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cb3a578-df76-4b52-a819-1f0bdf047a1a" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/image" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_HC05.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/My_HC05.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_HC05.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/My_HC05.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_HC05.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/My_HC05.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_HC05.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/My_HC05.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/My_HC05.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/My_HC05.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +74,12 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.OCD My_HC05">
-    <configuration name="My_HC05.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_HC05" TARGET_NAME="My_HC05.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_HC05" RUN_TARGET_NAME="My_HC05.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="My_HC05.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_HC05" TARGET_NAME="My_HC05.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="My_HC05" RUN_TARGET_NAME="My_HC05.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -88,7 +95,7 @@
       </method>
     </configuration>
     <configuration name="OCD My_HC05" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="My_HC05" TARGET_NAME="My_HC05.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="My_HC05" RUN_TARGET_NAME="My_HC05.elf">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="C:\Users\JIANG\Desktop\My_HC05\st_nucleo_f4.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="C:\Users\JIANG\Desktop\my_code\My_HC05\st_nucleo_f4.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
       </openocd>
       <method v="2">
@@ -115,7 +122,8 @@
       <workItem from="1627822146577" duration="4281000" />
       <workItem from="1627878426790" duration="15823000" />
       <workItem from="1628215804723" duration="2337000" />
-      <workItem from="1628219558165" duration="873000" />
+      <workItem from="1628219558165" duration="1620000" />
+      <workItem from="1628221213890" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="my_test">
       <created>1628219588089</created>
@@ -124,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628219588089</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="my_testimage">
+      <created>1628220444550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628220444550</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +147,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my_test" />
-    <option name="LAST_COMMIT_MESSAGE" value="my_test" />
+    <MESSAGE value="my_testimage" />
+    <option name="LAST_COMMIT_MESSAGE" value="my_testimage" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
