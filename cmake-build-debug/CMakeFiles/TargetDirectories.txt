@@ -1,0 +1,3 @@
+C:/Users/JIANG/Desktop/my_code/My_HC05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/JIANG/Desktop/my_code/My_HC05/cmake-build-debug/CMakeFiles/My_HC05.elf.dir
+C:/Users/JIANG/Desktop/my_code/My_HC05/cmake-build-debug/CMakeFiles/edit_cache.dir
